@@ -1,4 +1,4 @@
-package com.creational.singleton;
+package com.singleton;
 
 public class Logger {
 
@@ -26,3 +26,4 @@ public class Logger {
 		System.out.println("[LOG] " + message);
 	}
 }
+
