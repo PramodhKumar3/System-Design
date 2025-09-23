@@ -1,4 +1,4 @@
-package com.creational.singleton;
+package com.singleton;
 
 public class NotificationModule {
 	// NotificationModule method trying to create singleton object instance
@@ -7,3 +7,4 @@ public class NotificationModule {
 		logger.log("NotificationModule: Sending Notification....");
 	}
 }
+
