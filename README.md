@@ -8,11 +8,13 @@ Design pattern is a standard solution to a common software design problem. It pr
 ### Types of Design Patterns
 
 1. Creational Patterns
+ ```
   - Singleton 
   - Factory
   - Abstract Factory
   - BuilderPattern
   - PrototypePattern
+```
 
 2. Behavioral Patterns
 
