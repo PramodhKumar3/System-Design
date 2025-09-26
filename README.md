@@ -9,11 +9,11 @@ Design pattern is a standard solution to a common software design problem. It pr
 
 1. Creational Patterns
  ```
-  - Singleton 
-  - Factory
-  - Abstract Factory
-  - BuilderPattern
-  - PrototypePattern
+  i. Singleton 
+  ii. Factory
+  iii. Abstract Factory
+  iv. BuilderPattern
+  v.  PrototypePattern
 ```
 
 2. Behavioral Patterns
