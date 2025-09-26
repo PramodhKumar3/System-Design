@@ -12,8 +12,8 @@ Design pattern is a standard solution to a common software design problem. It pr
   Singleton 
   Factory
   Abstract Factory
-  BuilderPattern
-  PrototypePattern
+  Builder
+  Prototype
 ```
 
 2. Behavioral Patterns
