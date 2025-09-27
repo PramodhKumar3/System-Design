@@ -57,8 +57,6 @@ It provides a **proven approach** to structuring code for better **reusability, 
 
 # Creational Design Patterns
 
----
-
 ## 🔁 1. Singleton Pattern – Centralized Logger Service
 
 🧩 **Use Case (Detailed):**
@@ -166,8 +164,6 @@ Design a `GameCharacter` class using Prototype Pattern that:
 ---
 
 # Behavioral Design Patterns
-
----
 
 ## 🔗 1. Chain of Responsibility – Customer Support
 
@@ -361,8 +357,6 @@ Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calc
 ---
 
 # Structural Design Patterns
-
----
 
 ## 🔌 1. Adapter Pattern – Legacy Payment Gateway
 
