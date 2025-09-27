@@ -55,28 +55,7 @@ It provides a **proven approach** to structuring code for better **reusability, 
 
 ---
 
-# 🏗️ System Design & Design Patterns
-
-This repository contains explanations and coding exercises for **System Design Concepts** and **Design Patterns** in software engineering.
-Each pattern includes:
-
-- 🧩 **Use Case (Detailed)**
-- ✅ **Problem**
-- ❓ **Question**
-
----
-
-## 📑 Table of Contents
-
-- [Creational Patterns](#creational-design-patterns)
-- [Behavioral Patterns](#behavioral-design-patterns)
-- [Structural Patterns](#structural-design-patterns)
-
----
-
 # Creational Design Patterns
-
----
 
 ## 🔁 1. Singleton Pattern – Centralized Logger Service
 
@@ -185,8 +164,6 @@ Design a `GameCharacter` class using Prototype Pattern that:
 ---
 
 # Behavioral Design Patterns
-
----
 
 ## 🔗 1. Chain of Responsibility – Customer Support
 
@@ -380,8 +357,6 @@ Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calc
 ---
 
 # Structural Design Patterns
-
----
 
 ## 🔌 1. Adapter Pattern – Legacy Payment Gateway
 
