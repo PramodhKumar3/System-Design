@@ -161,6 +161,7 @@ Design a `GameCharacter` class using Prototype Pattern that:
 - Allows prototype creation and cloning
 - Demonstrates cloning Warrior with different names/weapons
 
+<!--
 ---
 
 # Behavioral Design Patterns
@@ -464,6 +465,7 @@ Loading all images upfront is slow and memory-intensive.
 Design `ImageProxy` that loads images lazily only when requested.
 Demonstrate viewing multiple images efficiently.
 
+-->
 ---
 
 ## 🚀 How to Use
