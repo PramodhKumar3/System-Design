@@ -161,7 +161,6 @@ Design a `GameCharacter` class using Prototype Pattern that:
 - Allows prototype creation and cloning
 - Demonstrates cloning Warrior with different names/weapons
 
-<!--
 ---
 
 # Behavioral Design Patterns
@@ -183,7 +182,7 @@ Need a flexible system where requests flow through handlers until resolved.
 ❓ **Question:**
 Design a `SupportHandler` interface with `handleRequest()`.
 Create `L1Handler`, `L2Handler`, `L3Handler` and demonstrate a request flowing through the chain.
-
+<!--
 ---
 
 ## 🎮 2. Command Pattern – Smart Home Remote
