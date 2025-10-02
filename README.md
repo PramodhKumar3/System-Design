@@ -122,7 +122,7 @@ Design an Abstract Factory that:
 - Defines interfaces for `Processor`, `GraphicsCard`, `Display`
 - Provides `GamingLaptopFactory` & `BusinessLaptopFactory`
 - Demonstrates assembling laptops from both product lines
-
+<!--
 ---
 
 ## 🧱 4. Builder Pattern – Custom PC Configuration
@@ -182,7 +182,7 @@ Need a flexible system where requests flow through handlers until resolved.
 ❓ **Question:**
 Design a `SupportHandler` interface with `handleRequest()`.
 Create `L1Handler`, `L2Handler`, `L3Handler` and demonstrate a request flowing through the chain.
-<!--
+
 ---
 
 ## 🎮 2. Command Pattern – Smart Home Remote
