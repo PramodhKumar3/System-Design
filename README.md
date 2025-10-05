@@ -122,7 +122,6 @@ Design an Abstract Factory that:
 - Defines interfaces for `Processor`, `GraphicsCard`, `Display`
 - Provides `GamingLaptopFactory` & `BusinessLaptopFactory`
 - Demonstrates assembling laptops from both product lines
-
 <!--
 ---
 
