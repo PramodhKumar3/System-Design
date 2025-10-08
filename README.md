@@ -122,7 +122,7 @@ Design an Abstract Factory that:
 - Defines interfaces for `Processor`, `GraphicsCard`, `Display`
 - Provides `GamingLaptopFactory` & `BusinessLaptopFactory`
 - Demonstrates assembling laptops from both product lines
-<!--
+
 ---
 
 ## 🧱 4. Builder Pattern – Custom PC Configuration
@@ -142,7 +142,7 @@ Design a `PCBuilder` class using Builder Pattern that:
 - Builds a PC object step by step
 - Supports optional and required components
 - Demonstrates Gaming PC and Office PC builds
-
+<!--
 ---
 
 ## 🧬 5. Prototype Pattern – Game Character Cloning
