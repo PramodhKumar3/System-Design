@@ -152,14 +152,14 @@ Creating from scratch is costly.
 
 ✅ **Problem:**
 Need cloning of prototype characters (Warrior, Mage).
-<!--
+
 ❓ **Question:**
 Design a `GameCharacter` class using Prototype Pattern that:
 
 - Implements `clone()`
 - Allows prototype creation and cloning
 - Demonstrates cloning Warrior with different names/weapons
-
+<!--
 ---
 
 # Behavioral Design Patterns
