@@ -142,7 +142,6 @@ Design a `PCBuilder` class using Builder Pattern that:
 - Builds a PC object step by step
 - Supports optional and required components
 - Demonstrates Gaming PC and Office PC builds
-<!--
 ---
 
 ## 🧬 5. Prototype Pattern – Game Character Cloning
@@ -151,6 +150,7 @@ Design a `PCBuilder` class using Builder Pattern that:
 RPG game with characters: Name, Health, Armor, Weapon, Skills.
 Creating from scratch is costly.
 
+<!--
 ✅ **Problem:**
 Need cloning of prototype characters (Warrior, Mage).
 
