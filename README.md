@@ -30,15 +30,15 @@ It provides a **proven approach** to structuring code for better **reusability, 
    ```
    Chain of Responsibility
    Command
-   Interpreter
-   Iterator
+   Template Method
    Mediator
    Memento
    Observer
    State
    Strategy
-   Template Method
+   Iterator
    Visitor
+   Interpreter
    ```
 
 3. **Structural Patterns**
