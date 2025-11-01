@@ -164,7 +164,7 @@ Design a `GameCharacter` class using Prototype Pattern that:
 ---
 
 # Behavioral Design Patterns
-<!--
+
 ## 🔗 1. Chain of Responsibility – Customer Support
 
 🧩 **Use Case (Detailed):**
@@ -182,7 +182,7 @@ Need a flexible system where requests flow through handlers until resolved.
 ❓ **Question:**
 Design a `SupportHandler` interface with `handleRequest()`.
 Create `L1Handler`, `L2Handler`, `L3Handler` and demonstrate a request flowing through the chain.
-
+<!--
 ---
 
 ## 🎮 2. Command Pattern – Smart Home Remote
