@@ -160,11 +160,11 @@ Design a `GameCharacter` class using Prototype Pattern that:
 - Implements `clone()`
 - Allows prototype creation and cloning
 - Demonstrates cloning Warrior with different names/weapons
-<!--
+
 ---
 
 # Behavioral Design Patterns
-
+<!--
 ## 🔗 1. Chain of Responsibility – Customer Support
 
 🧩 **Use Case (Detailed):**
