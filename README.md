@@ -221,7 +221,7 @@ Implement a grammar-based parser that interprets mathematical expressions.
 ❓ **Question:**
 Design an `Expression` interface with `interpret()`.
 Implement `NumberExpression`, `AddExpression`, `SubtractExpression` and evaluate expressions.
-
+-->
 ---
 
 ## 📚 4. Iterator Pattern – Book Collection
@@ -236,7 +236,7 @@ Need a clean way to traverse the collection sequentially.
 ❓ **Question:**
 Design a `BookIterator` with `hasNext()` & `next()`.
 Demonstrate iterating through books without exposing the internal list.
-
+<!--
 ---
 
 ## 💬 5. Mediator Pattern – Chat Room
