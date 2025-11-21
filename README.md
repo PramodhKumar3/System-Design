@@ -87,6 +87,8 @@ Design a Logger class using the Singleton pattern in Java. Ensure that:
 
 ## 🏭 2. Factory Method – Notification System
 
+**Definition:** Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
 🧩 **Use Case (Detailed):**
 An e-commerce platform sends notifications:
 
