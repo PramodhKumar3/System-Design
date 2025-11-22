@@ -59,6 +59,8 @@ It provides a **proven approach** to structuring code for better **reusability, 
 
 ## 🔁 1. Singleton Pattern – Centralized Logger Service
 
+**Definition:** **Singleton** is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
 🧩 **Use Case (Detailed):**
 You are developing a large-scale enterprise application with multiple modules:
 
@@ -87,7 +89,7 @@ Design a Logger class using the Singleton pattern in Java. Ensure that:
 
 ## 🏭 2. Factory Method – Notification System
 
-**Definition:** Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+**Definition:** **Factory Method** is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 🧩 **Use Case (Detailed):**
 An e-commerce platform sends notifications:
@@ -111,6 +113,8 @@ Design a NotificationFactory using Factory Method that:
 
 ## 🧰 3. Abstract Factory – Laptop Manufacturing Kit
 
+**Definition:** **Abstract Factory** is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
 🧩 **Use Case (Detailed):**
 Laptop lines: Gaming and Business.
 Each has its own Processor, GraphicsCard, Display.
@@ -128,6 +132,8 @@ Design an Abstract Factory that:
 ---
 
 ## 🧱 4. Builder Pattern – Custom PC Configuration
+
+**Definition:** **Builder** is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 🧩 **Use Case (Detailed):**
 PC builder lets customers choose:
@@ -149,6 +155,8 @@ Design a `PCBuilder` class using Builder Pattern that:
 
 ## 🧬 5. Prototype Pattern – Game Character Cloning
 
+**Definition:** **Prototype** is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+
 🧩 **Use Case (Detailed):**
 RPG game with characters: Name, Health, Armor, Weapon, Skills.
 Creating from scratch is costly.
@@ -168,6 +176,8 @@ Design a `GameCharacter` class using Prototype Pattern that:
 # Behavioral Design Patterns
 
 ## 🔗 1. Chain of Responsibility – Customer Support
+
+**Definition:** **Chain of Responsibility** is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
 
 🧩 **Use Case (Detailed):**
 A software company provides customer support at multiple levels:
@@ -189,6 +199,8 @@ Create `L1Handler`, `L2Handler`, `L3Handler` and demonstrate a request flowing t
 
 ## 🎮 2. Command Pattern – Smart Home Remote
 
+**Definition:** **Command** is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. This transformation lets you pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
+
 🧩 **Use Case (Detailed):**
 In a smart home:
 
@@ -209,6 +221,8 @@ Create commands for Light, Garage, and Music. Demonstrate using a remote control
 
 ## 🧮 3. Interpreter Pattern – Expression Evaluator
 
+**Definition:**
+
 🧩 **Use Case (Detailed):**
 You need to evaluate expressions like:
 
@@ -228,6 +242,8 @@ Implement `NumberExpression`, `AddExpression`, `SubtractExpression` and evaluate
 
 ## 📚 4. Iterator Pattern – Book Collection
 
+**Definition:** **Iterator** is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
+
 🧩 **Use Case (Detailed):**
 You have a `BookCollection` class storing books internally in a list.
 External users should iterate without exposing internal details.
@@ -242,6 +258,8 @@ Demonstrate iterating through books without exposing the internal list.
 ---
 
 ## 💬 5. Mediator Pattern – Chat Room
+
+**Definition:** **Mediator** is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
 🧩 **Use Case (Detailed):**
 In a group chat system:
@@ -259,6 +277,8 @@ Users send messages via mediator. Demonstrate communication between 3 users.
 ---
 
 ## ✏️ 6. Memento Pattern – Text Editor Undo
+
+**Definition:** **Memento** is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 
 🧩 **Use Case (Detailed):**
 A text editor allows:
@@ -278,6 +298,8 @@ Demonstrate typing text and performing undo/redo operations.
 
 ## 👀 7. Observer Pattern – Stock Monitoring
 
+**Definition:** **Observer** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
+
 🧩 **Use Case (Detailed):**
 A stock market app notifies multiple investors when stock price changes.
 
@@ -291,6 +313,8 @@ When price changes, notify all investors.
 ---
 
 ## 🔄 8. State Pattern – Document Workflow
+
+**Definition:** **State** is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
 
 🧩 **Use Case (Detailed):**
 Document lifecycle:
@@ -310,6 +334,8 @@ Demonstrate state transitions with behaviors.
 
 ## 💳 9. Strategy Pattern – Payment Processing
 
+**Definition:** **Strategy** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
 🧩 **Use Case (Detailed):**
 E-commerce platform supports:
 
@@ -327,6 +353,8 @@ Implement `CreditCardPayment`, `PayPalPayment`, `UPIPayment`. Demonstrate dynami
 ---
 
 ## 📂 10. Template Method – Data Exporter
+
+**Definition:** **Template Method** is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 
 🧩 **Use Case (Detailed):**
 Data export functionality supports multiple formats:
@@ -346,6 +374,8 @@ Create CSVExporter, JSONExporter, XMLExporter. Demonstrate exporting in each for
 
 ## 🧾 11. Visitor Pattern – Tax Calculator
 
+**Definition:** **Visitor** is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+
 🧩 **Use Case (Detailed):**
 Different items (Electronics, Groceries, Clothing) have different tax rules.
 
@@ -362,6 +392,8 @@ Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calc
 
 ## 🔌 1. Adapter Pattern – Legacy Payment Gateway
 
+**Definition:** **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+
 🧩 **Use Case (Detailed):**
 A company has an old payment gateway (`OldPaymentAPI`) but now uses a new `PaymentProcessor` interface.
 
@@ -375,6 +407,8 @@ Demonstrate processing payments through the adapter.
 ---
 
 ## 🌉 2. Bridge Pattern – Remote Control
+
+**Definition:** **Bridge** is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 
 🧩 **Use Case (Detailed):**
 You need a remote control system for devices:
@@ -393,6 +427,8 @@ Demonstrate turning devices on/off.
 
 ## 🗂️ 3. Composite Pattern – File System
 
+**Definition:** **Composite** is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+
 🧩 **Use Case (Detailed):**
 File system contains:
 
@@ -409,6 +445,8 @@ Demonstrate recursive structure traversal.
 ---
 
 ## 🎨 4. Decorator Pattern – Text Formatting
+
+**Definition:** **Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
 🧩 **Use Case (Detailed):**
 Text editor applies multiple styles:
@@ -428,6 +466,8 @@ Apply multiple styles dynamically to text.
 
 ## 🎬 5. Facade Pattern – Media Converter
 
+**Definition:** **Facade** is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
+
 🧩 **Use Case (Detailed):**
 A media converter requires calling multiple subsystems (AudioDecoder, VideoDecoder, Compressor).
 
@@ -442,6 +482,8 @@ Demonstrate converting a file from MP4 → MP3.
 
 ## 🪶 6. Flyweight Pattern – Text Rendering
 
+**Definition:** **Flyweight** is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
 🧩 **Use Case (Detailed):**
 A document has thousands of characters with repeating fonts and styles.
 
@@ -455,6 +497,8 @@ Demonstrate rendering repeated characters efficiently.
 ---
 
 ## 🛡️ 7. Proxy Pattern – Image Viewer
+
+**Definition:** **Proxy** is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
 🧩 **Use Case (Detailed):**
 An image viewer loads high-resolution images.
