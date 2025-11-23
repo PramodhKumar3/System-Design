@@ -395,13 +395,17 @@ Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calc
 **Definition:** **Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 
 🧩 **Use Case (Detailed):**
-A company has an old payment gateway (`OldPaymentAPI`) but now uses a new `PaymentProcessor` interface.
+You have:
+
+ - A new PaymentProcessor interface with processPayment(double amount)
+ - A legacy OldPaymentSystem with makePayment(String amount)
+You cannot modify the old system but need to integrate it with the new one.
 
 ✅ **Problem:**
-New system should work with old gateway without changing its code.
+Direct integration creates tight coupling and breaks design principles. You need a way to adapt the old interface to the new one without changing existing code.
 
 ❓ **Question:**
-Design a `PaymentAdapter` class that adapts `OldPaymentAPI` to `PaymentProcessor`.
+Create `OldPaymentAdapter` that implements `PaymentProcessor` and internally uses `OldPaymentSystem`.
 Demonstrate processing payments through the adapter.
 
 ---
@@ -411,17 +415,18 @@ Demonstrate processing payments through the adapter.
 **Definition:** **Bridge** is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 
 🧩 **Use Case (Detailed):**
-You need a remote control system for devices:
+You need a remote control system for:
 
-- TV
-- Radio
+ - TV
+ - Radio
+Remote should work with any device without modifying code.
 
 ✅ **Problem:**
-Remote should work with any device without modifying code.
+Tightly coupling remote and device classes makes adding new devices or remotes hard. You need flexibility.
 
 ❓ **Question:**
 Design `RemoteControl` abstraction and `Device` implementations (TV, Radio).
-Demonstrate turning devices on/off.
+Create `SmartRemote` extending `RemoteControl`. Demonstrate turning devices on/off.
 
 ---
 
@@ -436,10 +441,10 @@ File system contains:
 - Folders (that may contain files or other folders)
 
 ✅ **Problem:**
-Need to treat files and folders uniformly.
+Need to treat files and folders uniformly for operations like display() and getSize().
 
 ❓ **Question:**
-Design `FileComponent` interface with `File` and `Folder` classes.
+Design `FileSystemComponent` interface with `File` and `Folder` classes.
 Demonstrate recursive structure traversal.
 
 ---
@@ -456,11 +461,11 @@ Text editor applies multiple styles:
 - Underline
 
 ✅ **Problem:**
-Need to add responsibilities dynamically without altering base class.
+Avoid creating separate classes for every combination of styles.
 
 ❓ **Question:**
 Design a `TextDecorator` class.
-Apply multiple styles dynamically to text.
+Apply multiple styles dynamically to text using decorators like `BoldDecorator`, `ItalicDecorator`, `UnderlineDecorator`.
 
 ---
 
@@ -469,7 +474,11 @@ Apply multiple styles dynamically to text.
 **Definition:** **Facade** is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
 🧩 **Use Case (Detailed):**
-A media converter requires calling multiple subsystems (AudioDecoder, VideoDecoder, Compressor).
+A media converter requires calling multiple subsystems:
+
+ - AudioDecoder
+ - VideoDecoder
+ - Compressor
 
 ✅ **Problem:**
 User should have a simple interface for conversion.
