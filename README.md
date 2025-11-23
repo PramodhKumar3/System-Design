@@ -30,15 +30,15 @@ It provides a **proven approach** to structuring code for better **reusability, 
    ```
    Chain of Responsibility
    Command
-   Template Method
+   Iterator
    Mediator
    Memento
    Observer
    State
    Strategy
-   Iterator
+   Template Method
    Visitor
-   Interpreter
+   Interpreter -- Optional
    ```
 
 3. **Structural Patterns**
@@ -194,7 +194,7 @@ Need a flexible system where requests flow through handlers until resolved.
 ❓ **Question:**
 Design a `SupportHandler` interface with `handleRequest()`.
 Create `L1Handler`, `L2Handler`, `L3Handler` and demonstrate a request flowing through the chain.
-<!--
+
 ---
 
 ## 🎮 2. Command Pattern – Smart Home Remote
@@ -216,7 +216,7 @@ Need to decouple request from execution while supporting undo/redo.
 ❓ **Question:**
 Design a `Command` interface with `execute()` and `undo()`.
 Create commands for Light, Garage, and Music. Demonstrate using a remote control.
-
+<!--
 ---
 
 ## 🧮 3. Interpreter Pattern – Expression Evaluator
@@ -240,7 +240,7 @@ Implement `NumberExpression`, `AddExpression`, `SubtractExpression` and evaluate
 -->
 ---
 
-## 📚 4. Iterator Pattern – Book Collection
+## 📚 3. Iterator Pattern – Book Collection
 
 **Definition:** **Iterator** is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 
@@ -257,7 +257,7 @@ Demonstrate iterating through books without exposing the internal list.
 <!--
 ---
 
-## 💬 5. Mediator Pattern – Chat Room
+## 💬 4. Mediator Pattern – Chat Room
 
 **Definition:** **Mediator** is a behavioral design pattern that lets you reduce chaotic dependencies between objects. The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
@@ -276,7 +276,7 @@ Users send messages via mediator. Demonstrate communication between 3 users.
 
 ---
 
-## ✏️ 6. Memento Pattern – Text Editor Undo
+## ✏️ 5. Memento Pattern – Text Editor Undo
 
 **Definition:** **Memento** is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 
@@ -296,7 +296,7 @@ Demonstrate typing text and performing undo/redo operations.
 
 ---
 
-## 👀 7. Observer Pattern – Stock Monitoring
+## 👀 6. Observer Pattern – Stock Monitoring
 
 **Definition:** **Observer** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
@@ -312,7 +312,7 @@ When price changes, notify all investors.
 
 ---
 
-## 🔄 8. State Pattern – Document Workflow
+## 🔄 7. State Pattern – Document Workflow
 
 **Definition:** **State** is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
 
@@ -332,7 +332,7 @@ Demonstrate state transitions with behaviors.
 
 ---
 
-## 💳 9. Strategy Pattern – Payment Processing
+## 💳 8. Strategy Pattern – Payment Processing
 
 **Definition:** **Strategy** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
 
@@ -352,7 +352,7 @@ Implement `CreditCardPayment`, `PayPalPayment`, `UPIPayment`. Demonstrate dynami
 
 ---
 
-## 📂 10. Template Method – Data Exporter
+## 📂 9. Template Method – Data Exporter
 
 **Definition:** **Template Method** is a behavioral design pattern that defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
 
@@ -372,7 +372,7 @@ Create CSVExporter, JSONExporter, XMLExporter. Demonstrate exporting in each for
 
 ---
 
-## 🧾 11. Visitor Pattern – Tax Calculator
+## 🧾 10. Visitor Pattern – Tax Calculator
 
 **Definition:** **Visitor** is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
 
