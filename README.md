@@ -254,7 +254,7 @@ Need a clean way to traverse the collection sequentially.
 ❓ **Question:**
 Design a `BookIterator` with `hasNext()` & `next()`.
 Demonstrate iterating through books without exposing the internal list.
-<!--
+
 ---
 
 ## 💬 4. Mediator Pattern – Chat Room
@@ -273,7 +273,7 @@ Need centralized control for communication between objects.
 ❓ **Question:**
 Design a `ChatRoom` mediator class.
 Users send messages via mediator. Demonstrate communication between 3 users.
-
+<!--
 ---
 
 ## ✏️ 5. Memento Pattern – Text Editor Undo
