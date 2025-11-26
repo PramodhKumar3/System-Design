@@ -273,7 +273,7 @@ Need centralized control for communication between objects.
 ❓ **Question:**
 Design a `ChatRoom` mediator class.
 Users send messages via mediator. Demonstrate communication between 3 users.
-<!--
+
 ---
 
 ## ✏️ 5. Memento Pattern – Text Editor Undo
@@ -293,7 +293,7 @@ Need to capture and restore object state without exposing implementation.
 ❓ **Question:**
 Design a `TextEditor`, `Memento`, and `History` class.
 Demonstrate typing text and performing undo/redo operations.
-
+<!--
 ---
 
 ## 👀 6. Observer Pattern – Stock Monitoring
