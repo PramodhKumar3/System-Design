@@ -293,7 +293,7 @@ Need to capture and restore object state without exposing implementation.
 ❓ **Question:**
 Design a `TextEditor`, `Memento`, and `History` class.
 Demonstrate typing text and performing undo/redo operations.
-<!--
+
 ---
 
 ## 👀 6. Observer Pattern – Stock Monitoring
@@ -309,7 +309,7 @@ Need a publish/subscribe system for automatic updates.
 ❓ **Question:**
 Design `Stock` as Subject and `Investor` as Observers.
 When price changes, notify all investors.
-
+<!--
 ---
 
 ## 🔄 7. State Pattern – Document Workflow
