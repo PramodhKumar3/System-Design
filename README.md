@@ -309,7 +309,7 @@ Need a publish/subscribe system for automatic updates.
 ❓ **Question:**
 Design `Stock` as Subject and `Investor` as Observers.
 When price changes, notify all investors.
-<!--
+
 ---
 
 ## 🔄 7. State Pattern – Document Workflow
@@ -329,7 +329,7 @@ Behavior should change based on the state of the object.
 ❓ **Question:**
 Design a `DocumentState` interface with states Draft, Moderation, Published.
 Demonstrate state transitions with behaviors.
-
+<!--
 ---
 
 ## 💳 8. Strategy Pattern – Payment Processing
