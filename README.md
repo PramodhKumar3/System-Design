@@ -329,7 +329,7 @@ Behavior should change based on the state of the object.
 ❓ **Question:**
 Design a `DocumentState` interface with states Draft, Moderation, Published.
 Demonstrate state transitions with behaviors.
-<!--
+
 ---
 
 ## 💳 8. Strategy Pattern – Payment Processing
@@ -349,7 +349,7 @@ Need flexible way to switch payment algorithms at runtime.
 ❓ **Question:**
 Design a `PaymentStrategy` interface with `pay()`.
 Implement `CreditCardPayment`, `PayPalPayment`, `UPIPayment`. Demonstrate dynamic selection at runtime.
-
+<!--
 ---
 
 ## 📂 9. Template Method – Data Exporter
