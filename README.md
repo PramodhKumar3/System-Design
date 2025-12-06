@@ -349,7 +349,7 @@ Need flexible way to switch payment algorithms at runtime.
 ❓ **Question:**
 Design a `PaymentStrategy` interface with `pay()`.
 Implement `CreditCardPayment`, `PayPalPayment`, `UPIPayment`. Demonstrate dynamic selection at runtime.
-<!--
+
 ---
 
 ## 📂 9. Template Method – Data Exporter
@@ -369,7 +369,7 @@ Need a common skeleton while letting subclasses define specific export logic.
 ❓ **Question:**
 Design abstract `DataExporter` with template method `exportData()`.
 Create CSVExporter, JSONExporter, XMLExporter. Demonstrate exporting in each format.
-
+<!--
 ---
 
 ## 🧾 10. Visitor Pattern – Tax Calculator
