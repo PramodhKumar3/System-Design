@@ -369,7 +369,7 @@ Need a common skeleton while letting subclasses define specific export logic.
 ❓ **Question:**
 Design abstract `DataExporter` with template method `exportData()`.
 Create CSVExporter, JSONExporter, XMLExporter. Demonstrate exporting in each format.
-<!--
+
 ---
 
 ## 🧾 10. Visitor Pattern – Tax Calculator
@@ -385,7 +385,7 @@ Need to separate tax logic from item classes.
 ❓ **Question:**
 Design `Visitor` interface for tax calculation.
 Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calculate tax.
-
+<!--
 ---
 
 # Structural Design Patterns
