@@ -385,7 +385,7 @@ Need to separate tax logic from item classes.
 ❓ **Question:**
 Design `Visitor` interface for tax calculation.
 Implement `Electronics`, `Groceries`, `Clothing` items and apply Visitor to calculate tax.
-<!--
+
 ---
 
 # Structural Design Patterns
@@ -407,7 +407,7 @@ Direct integration creates tight coupling and breaks design principles. You need
 ❓ **Question:**
 Create `OldPaymentAdapter` that implements `PaymentProcessor` and internally uses `OldPaymentSystem`.
 Demonstrate processing payments through the adapter.
-
+<!--
 ---
 
 ## 🌉 2. Bridge Pattern – Remote Control
