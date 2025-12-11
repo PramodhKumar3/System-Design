@@ -407,7 +407,7 @@ Direct integration creates tight coupling and breaks design principles. You need
 ❓ **Question:**
 Create `OldPaymentAdapter` that implements `PaymentProcessor` and internally uses `OldPaymentSystem`.
 Demonstrate processing payments through the adapter.
-<!--
+
 ---
 
 ## 🌉 2. Bridge Pattern – Remote Control
@@ -427,7 +427,7 @@ Tightly coupling remote and device classes makes adding new devices or remotes h
 ❓ **Question:**
 Design `RemoteControl` abstraction and `Device` implementations (TV, Radio).
 Create `SmartRemote` extending `RemoteControl`. Demonstrate turning devices on/off.
-
+<!--
 ---
 
 ## 🗂️ 3. Composite Pattern – File System
