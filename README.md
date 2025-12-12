@@ -427,7 +427,7 @@ Tightly coupling remote and device classes makes adding new devices or remotes h
 ❓ **Question:**
 Design `RemoteControl` abstraction and `Device` implementations (TV, Radio).
 Create `SmartRemote` extending `RemoteControl`. Demonstrate turning devices on/off.
-<!--
+
 ---
 
 ## 🗂️ 3. Composite Pattern – File System
@@ -446,7 +446,7 @@ Need to treat files and folders uniformly for operations like display() and getS
 ❓ **Question:**
 Design `FileSystemComponent` interface with `File` and `Folder` classes.
 Demonstrate recursive structure traversal.
-
+<!--
 ---
 
 ## 🎨 4. Decorator Pattern – Text Formatting
