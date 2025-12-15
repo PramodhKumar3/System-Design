@@ -446,7 +446,7 @@ Need to treat files and folders uniformly for operations like display() and getS
 ❓ **Question:**
 Design `FileSystemComponent` interface with `File` and `Folder` classes.
 Demonstrate recursive structure traversal.
-<!--
+
 ---
 
 ## 🎨 4. Decorator Pattern – Text Formatting
@@ -466,7 +466,7 @@ Avoid creating separate classes for every combination of styles.
 ❓ **Question:**
 Design a `TextDecorator` class.
 Apply multiple styles dynamically to text using decorators like `BoldDecorator`, `ItalicDecorator`, `UnderlineDecorator`.
-
+<!--
 ---
 
 ## 🎬 5. Facade Pattern – Media Converter
