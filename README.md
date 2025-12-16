@@ -466,7 +466,7 @@ Avoid creating separate classes for every combination of styles.
 ❓ **Question:**
 Design a `TextDecorator` class.
 Apply multiple styles dynamically to text using decorators like `BoldDecorator`, `ItalicDecorator`, `UnderlineDecorator`.
-<!--
+
 ---
 
 ## 🎬 5. Facade Pattern – Media Converter
@@ -486,7 +486,7 @@ User should have a simple interface for conversion.
 ❓ **Question:**
 Design `MediaConverterFacade` that simplifies conversion process.
 Demonstrate converting a file from MP4 → MP3.
-
+<!--
 ---
 
 ## 🪶 6. Flyweight Pattern – Text Rendering
