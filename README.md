@@ -486,7 +486,7 @@ User should have a simple interface for conversion.
 ❓ **Question:**
 Design `MediaConverterFacade` that simplifies conversion process.
 Demonstrate converting a file from MP4 → MP3.
-<!--
+
 ---
 
 ## 🪶 6. Flyweight Pattern – Text Rendering
@@ -502,7 +502,7 @@ Creating separate objects for each character wastes memory.
 ❓ **Question:**
 Design `CharacterFactory` that reuses Character objects (intrinsic state).
 Demonstrate rendering repeated characters efficiently.
-
+<!--
 ---
 
 ## 🛡️ 7. Proxy Pattern – Image Viewer
