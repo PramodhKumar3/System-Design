@@ -502,7 +502,7 @@ Creating separate objects for each character wastes memory.
 ❓ **Question:**
 Design `CharacterFactory` that reuses Character objects (intrinsic state).
 Demonstrate rendering repeated characters efficiently.
-<!--
+
 ---
 
 ## 🛡️ 7. Proxy Pattern – Image Viewer
@@ -519,7 +519,6 @@ Loading all images upfront is slow and memory-intensive.
 Design `ImageProxy` that loads images lazily only when requested.
 Demonstrate viewing multiple images efficiently.
 
--->
 ---
 
 ## 🚀 How to Use
